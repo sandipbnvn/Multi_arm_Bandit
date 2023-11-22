@@ -4,7 +4,7 @@ Implementation of multi arm bandit in a 10 arm test bed
 ## Single Bandit problem
 The bandit problem should have  10  arms. For each arm, the  q∗(a)  value should be sampled from a Gaussian distribution with  0  mean and unit variance . The rewards from arm  a  should be sampled from a Gaussian distribution with mean  q(a)  and unit variance.
 
-## Testbed
+1. ## Testbed
 Generate 2000 different bandit problems. Use the sample average method with incremental implementation for learning the action values. Plot the learning curves for 1000 timesteps with the following algorithms:
 
 gready
